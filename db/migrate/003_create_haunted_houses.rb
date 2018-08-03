@@ -1,5 +1,9 @@
 class CreateHauntedHouses < ActiveRecord::Migration[4.2]
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 63f1c194f120941f6a3131efa3ca68352c5cab10
   def change
     create_table :haunted_houses do |t|
       t.string :name
@@ -14,5 +18,9 @@ class CreateHauntedHouses < ActiveRecord::Migration[4.2]
       t.timestamps
     end
   end
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 63f1c194f120941f6a3131efa3ca68352c5cab10
 end
